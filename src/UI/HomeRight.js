@@ -49,7 +49,7 @@ function HomeRight({ FormType, goToMessage, goto }) {
         console.log(username, userData.username);
         if (userData.email === email) {
           if (userData.password === password) {
-            navigate("/dashboard");
+            navigate("/home");
           } else {
             setAlert1("Enter Correct Password");
           }
